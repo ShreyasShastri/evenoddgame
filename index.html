@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EVOD GAME</title>
+        <link rel="stylesheet" href="game.css">
+    </head>
+    <body>
+        <div>
+            <div class="first-div">
+                <h1>EVEN-ODD GAME !!</h1>
+            </div>
+            <div class="second-div">
+                <h2 id="random-value">0</h2>
+            </div>
+            <div class="third-div">
+                <div class="tdl">
+                    <div class="tdlu">
+                        <h3 id="even">0</h3>
+                    </div>
+                    <div class="tdld">
+                        <button class="button-eo" onclick="EvenIncrement();evodClick.play();ifEven()">EVEN</button>
+                    </div>
+                </div>
+                <div class="tdr">
+                    <div class="tdru">
+                        <h3 id="odd">0</h3>
+                    </div>
+                    <div class="tdrd">
+                        <button class="button-eo" onclick="OddIncrement();evodClick.play();ifOdd()">ODD</button>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth-div">
+                <div class="fdl">
+                    <button class="button-start" id="start-button" onclick="GenerateRandomNumber();startClick.play()">START</button>
+                </div>
+                <div class="fdr">
+                    <script src="game.js"></script>
+                    <button class="button-reset" onclick="refreshPage()">RESET</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    background-image: url('background-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.first-div, .second-div, .third-div, .fourth-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    background-color: rgb(85, 144, 12);
+    padding: 2%;
+    border-radius: 15px;
+    font-family: 'Segoe UI';
+    color: whitesmoke
+}
+
+h2{
+    background-color: rgb(255, 253, 119);
+    color: rgb(8, 8, 8);
+    padding: 3% 4% 3% 4%;
+    font-size: 45px;
+    border-radius: 60px;
+    margin-bottom: 0;
+}
+h3{
+    font-size: 35px;
+    
+}
+.third-div{
+    background-color: rgba(175, 244, 57, 0.452);
+    margin-left: 25%;
+    margin-right: 25%;
+    flex-direction: row;
+    border-radius: 15px;
+    padding-bottom: 4%;
+}
+
+
+.tdl, .tdr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.tdld, .tdrd{
+    display: flex;
+}
+.fourth-div{
+    flex-direction: row;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.fdl, .fdr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.button-eo{
+    width: 120px;
+    height: 40px;
+    background-color: rgba(165, 42, 42, 0.701);
+    border: solid;
+    border-width: 0;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button-eo:hover{
+    background-color: rgb(241, 75, 75);
+    cursor: pointer;
+}
+.button-eo:active{
+    background-color: brown;
+}
+
+.button-start, .button-reset{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(82, 206, 5, 0.852);
+    border: solid;
+    border-width: 0;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-bottom: 20px;
+}
+.button-start:hover, .button-reset:hover{
+    background-color: rgb(47, 131, 16);
+    cursor: pointer;
+}
+.button-start:active, .button-reset:active{
+    background-color: rgba(82, 206, 5, 0.852);
+}
